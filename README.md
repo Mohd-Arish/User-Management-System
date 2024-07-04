@@ -6,7 +6,9 @@
 <li>Data Persistence: Uses MongoDB with Mongoose for database operations.</li>
 <li>Interactive UI: Utilizes EJS templates for rendering dynamic views. Static File Serving: Static files (e.g., CSS, images) served through Express middleware. interactive views for easy data manipulation.</li>
   </ol>
+  
 <h3 align= "left" font-weight= "bold">Endpoints:-  </h3>
+    <ol>
 <li>GET /: Renders the homepage with basic information.</li>
 <li>GET /read: Displays a list of all users in the database.</li>
 <li>GET /delete/:id: Deletes a user by their ID.</li>
@@ -14,7 +16,13 @@
 <li>POST /update/:userid: Updates user information based on the submitted form data.</li> 
 <li>POST /create: Creates a new user based on the submitted form data.</li> 
 </ol>
-<h3 align= "left" font-weight= "bold">Dependencies:- </h3> express: Web application framework for Node.js. ejs: Templating engine for rendering HTML templates. mongoose: MongoDB object modeling tool for Node.js.
+
+<h3 align= "left" font-weight= "bold">Dependencies:- </h3> 
+<ol>
+<li>express: Web application framework for Node.js. </li>
+<li>ejs: Templating engine for rendering HTML templates. </li>
+<li>mongoose: MongoDB object modeling tool for Node.js. </li>
+</ol>
 
 
 
